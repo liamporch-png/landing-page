@@ -9,20 +9,22 @@ body{
 }
 
 .header{
-    display: flex;
-    flex-direction: row;
-    background-color: #1F2937;
-    justify-content: space-between;
-    align-items: center;
-    color: azure;
-    height: 40px;
+  display: flex;
+  flex-direction: row;
+  background-color: #1F2937;
+  justify-content: space-between;
+  align-items: center;
+  color: azure;
+  height: 40px;
+  padding-bottom: 10px;
+  padding-top: 15px;
 }
 
 .header-links{
-    display: flex;
-    flex-direction: row;
-    background-color: #1F2937;
-    gap: 40px;
+  display: flex;
+  flex-direction: row;
+  background-color: #1F2937;
+  gap: 40px;
 }
 
 a{
@@ -31,11 +33,11 @@ a{
 }
 
 .CBTH{
-    display: flex;
-    background-color: #1F2937;
-    flex: auto;
-    color: azure;
-    justify-content: center;
+  display: flex;
+  background-color: #1F2937;
+  flex: auto;
+  color: azure;
+  justify-content: center;
 }
 
 .bottom{
@@ -51,7 +53,7 @@ a{
 .signup1{
   width: 100px;
   height: 30px;
-  border: solid white 5px;
+  border: solid white 3px;
   background-color: #3882F6;
   border-radius: 15px;
   color: azure;
@@ -78,7 +80,7 @@ img{
   align-items:center ;
   gap:20px;
   flex: auto;
-  background-color: white;
+  background-color: azure;
 }
 
 
@@ -90,6 +92,8 @@ img{
 
 .quotebox{
   background-color: #E5E7EB;
+  padding-bottom: 18px;
+  padding-top: 18px;
 }
 
 .quote{
@@ -97,6 +101,10 @@ img{
   color: #1F2937;
   font-weight: 900px;
   font-family: 'Times New Roman', Times, serif;
+}
+
+.author{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .mox{
